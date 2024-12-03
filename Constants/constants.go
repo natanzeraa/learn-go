@@ -26,4 +26,17 @@ func main() {
 		A = 2
 		fmt.Println(A)
 	*/
+
+	// 💡 We can also declare multiple constants in a single declaration
+
+	const (
+		ONE     = 1
+		TWO     = 2
+		THREE   = 3
+		BOOLEAN = true
+		TEXT    = "My text . . . "
+	)
+
+	fmt.Printf("\nONE: %v\nTWO: %v\nTHREE: %v\nBOOLEAN: %v\nTEXT: %v\n, ", ONE, TWO, THREE, BOOLEAN, TEXT)
+
 }
